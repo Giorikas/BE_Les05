@@ -1,4 +1,7 @@
 import java.util.List;
+import java.util.Random;
+import java.util.Scanner;
+import java.util.ArrayList;
 
 // Los in deze klasse alle foutmeldingen op door (abstracte) klassen met variabelen en methodes te maken en een interface met methodes (en soms een import).
 public class PokemonGymImpl implements PokemonGym {
@@ -27,6 +30,7 @@ public class PokemonGymImpl implements PokemonGym {
         fightRound(player1, gymOwner, pokemon, gymPokemon);
 
     }
+
 
     @Override
     public void printPokemon(List<Pokemon> pokemons) {
